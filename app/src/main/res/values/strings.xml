@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Nasa_Api_Astoroied_Radar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="neo_feed">NEO Feed</string>
+    <string name="today_s_image_of_the_day">Today\'s Image of the Day</string>
+    <string name="object">Object:</string>
+    <string name="close_approach_date">Close Approach Date</string>
+    <string name="absolute_magnitude">Absolute Magnitude</string>
+    <string name="estimated_diameter_min">Estimated Diameter Min</string>
+    <string name="estimated_diameter_max">Estimated Diameter Max</string>
+    <string name="relative_velocity">Relative Velocity(km/h)</string>
+    <string name="distance_from_earth">Distance From Earth</string>
+    <string name="is_potentially_hazardous">Is Potentially Hazardous</string>
+    <string name="id">Id</string>
+    <string name="near_earth_object">Near Earth Object</string>
+
 </resources>

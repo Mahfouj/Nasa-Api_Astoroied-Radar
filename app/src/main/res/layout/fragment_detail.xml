@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".DetailFragment">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/near_earth_object"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="24dp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/id"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Name:"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_Codename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/close_approach_date"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_closeApproachDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_bg2"
+                    android:padding="8dp"
+                    android:text="@string/absolute_magnitude"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_absoluteMagnitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estimated_diameter_min"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_estimatedDiameterMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estimated_diameter_max"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_estimatedDiameterMax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/relative_velocity"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_relativeVelocity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_bg2"
+                    android:padding="8dp"
+                    android:text="@string/distance_from_earth"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_distanceFromEarth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/border_bg">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/is_potentially_hazardous"
+                    android:padding="8dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/border_bg2"/>
+                <TextView
+                    android:id="@+id/tv_isPotentiallyHazardous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</layout>
