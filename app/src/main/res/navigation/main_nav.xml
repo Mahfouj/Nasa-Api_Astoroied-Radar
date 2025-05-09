@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.nasa_api_astoroied_radar.HomeFragment"
+        android:name="com.example.nasa_api_astoroied_radar.Views.Home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.nasa_api_astoroied_radar.DetailFragment"
+        android:name="com.example.nasa_api_astoroied_radar.Views.detail.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
 </navigation>
